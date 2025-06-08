@@ -3,73 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MD ASHRAFUL HAKIM KHAN SIDDIQUEE - Portfolio</title>
+    <title>MD Ashraful Hakim Khan Siddiquee - Portfolio</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Roboto', sans-serif; margin: 0; padding: 0; line-height: 1.6; background: #f9f9f9; color: #333; }
+        header, footer { background: #003366; color: white; text-align: center; padding: 2rem 1rem; }
+        nav ul { list-style: none; display: flex; justify-content: center; gap: 2rem; padding: 0; background: #005599; margin: 0; }
+        nav a { color: white; text-decoration: none; font-weight: bold; }
+        .container { padding: 2rem; max-width: 1000px; margin: auto; }
+        .section { margin-bottom: 2rem; }
+        .section h2 { color: #005599; border-bottom: 2px solid #005599; padding-bottom: 0.5rem; }
+        img.profile-photo { width: 150px; border-radius: 50%; object-fit: cover; }
+        .btn { display: inline-block; background: #005599; color: white; padding: 0.75rem 1.25rem; text-decoration: none; border-radius: 5px; margin-top: 1rem; }
+    </style>
 </head>
 <body>
     <header>
         <h1>MD ASHRAFUL HAKIM KHAN SIDDIQUEE</h1>
-        <p>IT Support Engineer | IT Enthusiast</p>
+        <p>IT Support Engineer | Tech Enthusiast | Problem Solver</p>
+        <p>
+            <a href="https://www.linkedin.com/in/md-ashraful-hakim-khan-siddiquee-521181197/" style="color: #a0d8ff;">LinkedIn</a> |
+            <a href="https://github.com/ashrafulkhan007" style="color: #a0d8ff;">GitHub</a>
+        </p>
     </header>
+
     <nav>
         <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#experience">Work Experience</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
             <li><a href="#education">Education</a></li>
+            <li><a href="#certifications">Certifications</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
+
     <div class="container">
-
-	<section id="about" class="section">
-    		<h2>About Me</h2>
-    		<div style="display: flex; align-items: center; gap: 1rem;">
-			<img src="img/profile_photo.png" alt="Professional Photo of MD ASHRAFUL HAKIM KHAN SIDDIQUEE" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover;">
-        		<p>Hello! I am MD ASHRAFUL HAKIM KHAN SIDDIQUEE, a passionate IT professional with experience in technical support and a strong interest in engineering and technology. Currently pursuing my Master's in Information and Communications Engineering in Berlin, I am committed to lifelong learning and professional growth.</p>
-    		</div>
-	</section>
-
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <div style="display: flex; align-items: center; gap: 1rem;">
+                <img src="img/profile_photo.png" alt="MD Ashraful Hakim Khan Siddiquee" class="profile-photo">
+                <p>Hello! I’m a Berlin-based IT Support Engineer with a strong background in system support and network administration. I thrive in dynamic environments and am currently pursuing my Master’s in Information and Communications Engineering to expand my technical and professional horizons.</p>
+            </div>
+        </section>
 
         <section id="experience" class="section">
             <h2>Work Experience</h2>
-            <h3>IT Support Engineer - Joy & 3 Stars Pvt. Ltd.</h3>
-            <p>November 2020 - December 2023</p>
+            <h3>IT Support Engineer – Joy & 3 Stars Pvt. Ltd.</h3>
+            <p><em>Nov 2020 – Dec 2023 | Dhaka, Bangladesh</em></p>
             <ul>
-                <li>Provided technical support for hardware, software, and network issues.</li>
-                <li>Installed, configured, and maintained IT infrastructure and peripherals.</li>
-                <li>Monitored system performance, security, and updates.</li>
-                <li>Managed user accounts and access control (Active Directory).</li>
-                <li>Assisted in software/hardware deployments and troubleshooting.</li>
-                <li>Documented technical issues and provided user training.</li>
+                <li>Delivered on-site and remote technical support across multiple platforms.</li>
+                <li>Installed and maintained hardware/software, and ensured security compliance.</li>
+                <li>Managed Active Directory and administered Microsoft Intune.</li>
+                <li>Handled tickets and issue tracking via Jira.</li>
+                <li>Provided end-user training and documentation for technical processes.</li>
             </ul>
         </section>
+
         <section id="education" class="section">
             <h2>Education</h2>
-            <h3>Master of Engineering in Information and Communications Engineering</h3>
-            <p>Berliner Hochschule für Technik | October 2022 - Ongoing</p>
-            <h3>Bachelor of Science in Electrical & Electronic Engineering</h3>
-            <p>Prime University | September 2018 - April 2022</p>
+            <h3>Master of Engineering – Information and Communications Engineering</h3>
+            <p><em>Berliner Hochschule für Technik | Oct 2022 – Present</em></p>
+
+            <h3>Bachelor of Science – Electrical & Electronic Engineering</h3>
+            <p><em>Prime University | Sep 2018 – Apr 2022</em></p>
         </section>
+
+        <section id="certifications" class="section">
+            <h2>Certifications</h2>
+            <ul>
+                <li>CCNA (Cisco Certified Network Associate), Cisco – Valid till May 2026</li>
+                <li>Google IT Support, Coursera – 2023</li>
+            </ul>
+        </section>
+
         <section id="skills" class="section">
             <h2>Skills</h2>
             <ul>
-                <li>Programming: Python, HTML, CSS</li>
-                <li>Operating Systems: Windows, Linux, Mac</li>
-                <li>Networking: CCNA Certified</li>
-                <li>IT Tools: Microsoft 365, VMware, Oracle VM VirtualBox</li>
+                <li><strong>Operating Systems:</strong> Windows, Linux, macOS, Android, iOS</li>
+                <li><strong>Networking:</strong> TCP/IP, Routing, Switching, CCNA knowledge</li>
+                <li><strong>Virtualization:</strong> VMware, Oracle VM VirtualBox</li>
+                <li><strong>Cloud/MDM:</strong> Microsoft 365, Microsoft Intune</li>
+                <li><strong>Ticketing:</strong> Jira</li>
+                <li><strong>Scripting & Tools:</strong> Python (basic), HTML, CSS</li>
+                <li><strong>Languages:</strong> English (Professional), German (A2)</li>
             </ul>
         </section>
+
         <section id="contact" class="section">
             <h2>Contact</h2>
             <p><strong>Address:</strong> Franz-Mehring-Platz 3, 10243 Berlin, Germany</p>
             <p><strong>Phone:</strong> +49 177 2883011</p>
             <p><strong>Email:</strong> <a href="mailto:md.ashrafulkhan@gmail.com">md.ashrafulkhan@gmail.com</a></p>
-            <a href="cv/cv_of_siddiquee.pdf" class="btn" download>Download CV</a>
+            <a href="cv/cv_of_siddiquee.pdf" class="btn" download>Download Full CV</a>
         </section>
     </div>
+
     <footer>
-        <p>&copy; 2025 MD ASHRAFUL HAKIM KHAN SIDDIQUEE. All rights reserved.</p>
+        <p>&copy; 2025 MD Ashraful Hakim Khan Siddiquee. All rights reserved.</p>
     </footer>
 </body>
 </html>
